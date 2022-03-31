@@ -24,7 +24,7 @@
    /*  Media queries sizes: */
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%; 
+    --container-width-sm: 90%; 
 }
 
 /* This could go here or in the * section */
@@ -67,7 +67,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section  > h2,
