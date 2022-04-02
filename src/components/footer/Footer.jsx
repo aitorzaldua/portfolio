@@ -9,10 +9,10 @@ import {AiFillHeart} from 'react-icons/ai';
 const Footer = () => {
   return (
     <section id='footer' className='footer'>
-      <a href='#' className='footer__logo'>Aitor Zaldua</a>
+      <a href='#header' className='footer__logo'>Aitor Zaldua</a>
 
       <ul className='permalinks'>
-        <li><a href='#'>Home</a></li>
+        <li><a href='#header'>Home</a></li>
         <li><a href='#about'>About Me</a></li>
         <li><a href='#experience'>Experience</a></li>
         <li><a href='#services'>Services</a></li>
