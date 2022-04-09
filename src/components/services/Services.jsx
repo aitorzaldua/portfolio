@@ -17,15 +17,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>First description of Service</p>
+              <p>Beautiful and Responsive UI Designs with Figma </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Second description of Service</p>
+              <p>Web portal created with React</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Thirth description of Service</p>
+              <p>Multiple Chains integration</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
