@@ -1,11 +1,11 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
+import IMG1 from '../../assets/portfolio01.png';
+import IMG2 from '../../assets/portfolio02.png';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/portfolio06.png';
 
 const Portfolio = () => {
 
@@ -13,16 +13,17 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'Title portfolio 1',
-      github: 'https://github.com/aitorzaldua/portfolio_brand',
-      website: 'https://www.draftdigital.org/'
+      title: 'Netflix Decentralized',
+      github: 'https://github.com/aitorzaldua/netflixdecentralized',
+      website: 'https://netflixdecentralized.netlify.app/'
     },
     {
       id: 2,
       image: IMG2,
-      title: 'Title portfolio 2',
-      github: 'https://github.com/aitorzaldua/portfolio_brand',
-      website: 'https://www.draftdigital.org/'
+      title: 'Awesome Punks',
+      github: 'https://github.com/aitorzaldua/platzi_punks_v3_interface',
+      website: 'https://awesomepunks.netlify.app/',
+      contract: 'https://rinkeby.etherscan.io/address/0xDE79Fe425A2AFA4dc9FDb665f5430d23008F91D0#code'
     },
     {
       id: 3,
@@ -48,7 +49,7 @@ const Portfolio = () => {
     {
       id: 6,
       image: IMG6,
-      title: 'Title portfolio 6',
+      title: 'Draft Digital',
       github: 'https://github.com/aitorzaldua/portfolio_brand',
       website: 'https://www.draftdigital.org/'
     },
@@ -62,7 +63,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id, image, title, github, website}) => {
+          data.map(({id, image, title, github, website, contract}) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
@@ -72,6 +73,7 @@ const Portfolio = () => {
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
                   <a href={website} className='btn btn-primary' target='_blank' rel='noreferrer'>Website</a>
+                  {/* <a href={contract} className='btn' target='_blank' rel='noreferrer'>Contract</a> */}
                 </div>
               </article>
             )

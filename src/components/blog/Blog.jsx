@@ -1,9 +1,9 @@
 import React from 'react';
 import './blog.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio1.jpg';
-import IMG3 from '../../assets/portfolio1.jpg';
-import IMG4 from '../../assets/portfolio1.jpg';
+import IMG1 from '../../assets/portfolio01.png';
+import IMG2 from '../../assets/portfolio01.png';
+import IMG3 from '../../assets/portfolio01.png';
+import IMG4 from '../../assets/portfolio01.png';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

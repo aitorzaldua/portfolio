@@ -40,10 +40,11 @@ const About = () => {
             </article>        
           </div>
 
-          <p>
-            Working for more than 24 years for the biggest techs in the world,
-            for the best companies, biggest projects and also acomplished the
-            challenges that I try because I am the best engineer in the entire world.
+            <p>
+              Passionate about forward-looking challenges, I have built my career by participating in 
+              those initiatives that defined technology in each generation. Digital transformation, the real one, is 
+              about migrating companies to the blockchain ecosystems that are starting to develop. 
+              I am here to help lead the way, to guide those companies into this new land of unlimited opportunities.
             </p>
             <a href='#contact' className='btn btn-primary'>Let´s talk</a>
         </div>
