@@ -17,23 +17,27 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Beautiful and Responsive UI Designs with Figma </p>
+              <p>Fast load times and lag free interaction.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Web portal created with React</p>
+              <p>Responsive layouts that will work on any device.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Multiple Chains integration</p>
+              <p>Strong preference for easy to use, intuitive UX/UI.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Fourth description of Service</p>
+              <p>HTML5, SASS, Tailwind</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Fiveth description of Service</p>
+              <p>React, Next.js</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Full web3 integration</p>
             </li>
           </ul>
         </article>
@@ -45,11 +49,11 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>First description of Service</p>
+              <p>Smart Contract using ERC20, ERC721</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Second description of Service</p>
+              <p>DeFi(Decentralized Finance) DApps </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />

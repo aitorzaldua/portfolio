@@ -38,17 +38,19 @@
 }
 
 .about__card {
+    /* background: linear-gradient(var(--color-bg-variant), transparent); */
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
+    /* border: 1px solid transparent; */
+    border-radius: 0.5em;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    
 }
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-bg-variant);
     cursor: default;
 }
 
