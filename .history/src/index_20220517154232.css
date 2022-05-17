@@ -13,7 +13,7 @@
 
 .header{
     padding-top: 0;
-    margin:2em;
+    margin:4em;
 }
 
 :root {
@@ -82,7 +82,7 @@ h1 {
 }
 
 section {
-    margin-top: 10rem;
+    margin-top: 8rem;
     /* height: 100vh; */
 }
 

@@ -1,4 +1,7 @@
-
+.about {
+    padding-top: 0;
+    margin:2em;
+}
 
 .about__container {
     display: grid;
