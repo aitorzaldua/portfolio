@@ -9,7 +9,6 @@
     border: 1px solid var(--color-primary);
     cursor: default;
     opacity: 0.5;
-    border-radius: 0.5rem;
 }
 
 .service:hover {

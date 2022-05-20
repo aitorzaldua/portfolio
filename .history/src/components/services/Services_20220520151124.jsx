@@ -11,7 +11,7 @@ const Services = () => {
       <div className='container services__container'>
 
         <article className='service'>
-
+      
           <ul className='service__list'>
           <h3>Frontend & UI Design</h3>
             <li>
@@ -42,8 +42,10 @@ const Services = () => {
         </article>
 
         <article className='service'>
+          <div className='service__head'>
+            <h3>EVM Services</h3>
+          </div>
           <ul className='service__list'>
-          <h3>EVM Services</h3>
             <li>
               <BiCheck className='service__list-icon' />
               <p>Smart Contract using ERC20, ERC721</p>
@@ -68,8 +70,10 @@ const Services = () => {
         </article>
 
         <article className='service'>
+          <div className='service__head'>
+            <h3>Non-EVM Services</h3>
+          </div>
           <ul className='service__list'>
-          <h3>Non-EVM Services</h3>
             <li>
               <BiCheck className='service__list-icon' />
               <p>First description of Service</p>

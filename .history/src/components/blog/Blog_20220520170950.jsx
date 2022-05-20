@@ -66,7 +66,7 @@ const Blog = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}>
       {
-          data.map(({id, image, title, note, note2, link, place}) => {
+          data.map(({id, image, title, note, link, place}) => {
             return (
               <SwiperSlide className='article'>
                 <h5 className='article__name'>{title}</h5>
@@ -74,7 +74,6 @@ const Blog = () => {
                   <img src={IMG1} alt=''></img>
                 </div>
                 <small className='article__note'>{note}</small>
-                <small className='article__note'>{note2}</small>
                 <a className='article__link' href={link} target='_blank' rel='noreferrer'>Continue reading on {place}</a>
               </SwiperSlide>
             )
