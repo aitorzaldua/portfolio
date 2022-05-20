@@ -24,15 +24,15 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             {/* <h5>Click to send a message</h5> */}
-            <a href='https://wa.me/+34609278125' target="_blank" rel="noreferrer">Send a message</a> 
-            {/* <a href='https://api.whatsapp.com/send?phone=+34609278125' target="_blank" rel="noreferrer">Send a message</a> */}
+            {/* <a href='https://wa.me/+34609278125' target="_blank" rel="noreferrer">Send a message</a>  */}
+            <a href='https://api.whatsapp.com/send?phone=+34609278125' target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon' />
             <h4>Linkedin</h4>
             {/* <h5>Click to access to my profile</h5> */}
-            <a href='https://www.linkedin.com/in/aitor-zaldua/' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://www.linkedin.com/in/xxxxx' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
 

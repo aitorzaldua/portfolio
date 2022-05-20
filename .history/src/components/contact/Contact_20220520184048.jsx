@@ -32,7 +32,7 @@ const Contact = () => {
             <BsLinkedin className='contact__option-icon' />
             <h4>Linkedin</h4>
             {/* <h5>Click to access to my profile</h5> */}
-            <a href='https://www.linkedin.com/in/aitor-zaldua/' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://www.linkedin.com/in/xxxxx' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
 
