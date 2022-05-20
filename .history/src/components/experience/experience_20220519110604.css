@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-    background: var(--color-white);
+    background: red;
     padding: 2.4rem 5rem;
     border-radius: 0.5rem;
     border: 1px solid transparent;
@@ -14,28 +14,15 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-white);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #b3c3d1;
+    color: var(--color-primary);
 }
-
-.experience__container > div:hover h3 {
-    color: var(--color-white);
-}
-
-.experience__container > div h4 {
-    color: #7cc1df;
-}
-
-.experience__container > div:hover h4 {
-    color: #206683;
-}
-
 
 .experience__content {
     display: grid;
@@ -52,12 +39,6 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
-
-/* .experience__details-icon h1, h2, h4 {
-    color: #a9cc8e;
-} */
-
-
 
  /* Media-queries
 

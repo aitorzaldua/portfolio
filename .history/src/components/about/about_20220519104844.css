@@ -52,13 +52,13 @@
 }
 
 .about__card:hover {
-    background: var(--color-white);
-    border-color: var(--color-white);
+    background: var(--color-primary-variant-2);
+    border-color: var(--color-primary-variant-2);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-light);
+    color: var(--color-ribbon:);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -78,9 +78,8 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-primary-variant);
+    color: var(--color-light);
 }
-
 
  /* Media-queries
 

@@ -21,21 +21,15 @@
     /* Grey Palette: */
 
     --color-bg: #d9e1e8;
+    --color-bg-variant: #54728c;
     --color-primary: #99afc2;
-    --color-light: rgba(230, 235, 240, 0.6);
     /* MASTER COLOR */
     --color-primary-variant: #577590;
-    --color-bg-variant: #4d6880;
     --color-white: #2e3e4d;
+    --color-light: rgba(230, 235, 240, 0.6);
 
+    /* Green Palette */
 
-    /* Blue Palette */
-    --color-bg-blue: #cee8f3;
-    --color-primary-blue: #7cc1ef;
-    /* MASTER COLOR */
-    --color-primary-variant-blue: #3098c5;
-    --color-bg-variant-blue: #287fa4;
-    --color-white-blue: #184c63;
 
 
     --transition: all 400ms ease;

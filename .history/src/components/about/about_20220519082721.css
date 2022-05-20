@@ -52,20 +52,16 @@
 }
 
 .about__card:hover {
-    background: var(--color-white);
-    border-color: var(--color-white);
+    background: transparent;
+    border-color: var(--color-bg-variant-2);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-light);
+    color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
-}
-
-.about__icon:hover {
-    color: var(--color-primary);
-}
+} 
 
 .about__card h5 {
     font-size: 0.9rem;
@@ -78,9 +74,8 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-primary-variant);
+    color: var(--color-light);
 }
-
 
  /* Media-queries
 

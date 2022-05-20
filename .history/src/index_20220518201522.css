@@ -11,39 +11,27 @@
     text-decoration: none;
 }
 
-.header {
+.header{
     padding-top: 0;
-    margin: 2em;
+    margin:2em;
 }
 
 :root {
-
-    /* Grey Palette: */
-
-    --color-bg: #d9e1e8;
-    --color-primary: #99afc2;
-    --color-light: rgba(230, 235, 240, 0.6);
-    /* MASTER COLOR */
-    --color-primary-variant: #577590;
-    --color-bg-variant: #4d6880;
-    --color-white: #2e3e4d;
-
-
-    /* Blue Palette */
-    --color-bg-blue: #cee8f3;
-    --color-primary-blue: #7cc1ef;
-    /* MASTER COLOR */
-    --color-primary-variant-blue: #3098c5;
-    --color-bg-variant-blue: #287fa4;
-    --color-white-blue: #184c63;
-
-
+    /* --color-bg: #1f1f38; */
+    --color-bg: #dce0e5; 
+    --color-bg-variant: #556d8b;
+    /* --color-primary: #4db5ff; */
+    --color-primary: #a1acba;
+    --color-primary-variant: #78cd51;
+    /* --color-white: #fff; */
+    --color-white: #343c46;
+    --color-light: rgba(255,255,255, 0.6);
     --transition: all 400ms ease;
 
-    /*  Media queries sizes: */
+   /*  Media queries sizes: */
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-sm: 90%; 
 }
 
 /* This could go here or in the * section */
@@ -66,11 +54,11 @@ body {
     background-image: url(../src/assets/back001.png);
     /* background: linear-gradient(90deg, #a1acba 1%, transparent 8%) 1px 0, var(--color-bg);
     background-size: 200px 1px; */
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-repeat:no-repeat;
+    background-position:center center;
     background-size: 100% 100%, auto;
     /* background-size: cover; */
-
+    
 }
 
 /* General Styles */
@@ -97,14 +85,14 @@ section {
     /* height: 100vh; */
 }
 
-section>h2,
-section>h5 {
+section  > h2,
+section > h5 {
     text-align: center;
-    color: var(--color-primary-variant);
+    color: var(--color-light);
 }
 
-section>h2 {
-    color: var(--color-white);
+section > h2 {
+    color: var(--color-primary);
     margin-bottom: 3rem;
 }
 
@@ -149,7 +137,7 @@ img {
     object-fit: cover;
 }
 
-/* Media-queries
+ /* Media-queries
 
  Tablets or similar */
 @media screen and (max-width: 1024px) {
@@ -162,13 +150,14 @@ img {
     }
 }
 
-/* Mobile phones or similar */
+/* Mobile phones or similar */ 
 @media screen and (max-width: 600px) {
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-sm); 
     }
 
-    section>h2 {
+    section > h2 {
         margin-top: 2rem;
     }
 }
+

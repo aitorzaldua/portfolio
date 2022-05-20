@@ -28,15 +28,6 @@
     color: var(--color-white);
 }
 
-.experience__container > div h4 {
-    color: #7cc1df;
-}
-
-.experience__container > div:hover h4 {
-    color: #206683;
-}
-
-
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,11 +44,9 @@
     color: var(--color-primary);
 }
 
-/* .experience__details-icon h1, h2, h4 {
-    color: #a9cc8e;
-} */
-
-
+.experience__details-icon h1, h2, h4, h5 {
+    color: red;
+}
 
  /* Media-queries
 

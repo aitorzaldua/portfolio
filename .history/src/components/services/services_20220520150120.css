@@ -21,7 +21,7 @@
 .service__head {
     background: var(--color-primary-blue);
     padding: 2rem;
-    /* border-radius: 0.5rem; */
+    border-radius: 0.5rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 

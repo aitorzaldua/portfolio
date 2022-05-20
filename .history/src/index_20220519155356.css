@@ -18,26 +18,27 @@
 
 :root {
 
-    /* Grey Palette: */
+    /* Background, let´s talk letters, Services titles(x3),
+    website letters, send message letters, foot letters: 
+    Everything with grey background. */
+    --color-bg: #dce0e5;
 
-    --color-bg: #d9e1e8;
-    --color-primary: #99afc2;
-    --color-light: rgba(230, 235, 240, 0.6);
-    /* MASTER COLOR */
+    /* Backgrounds: photo, abput me buttons, my experience pannels, 
+    services bottom pannels, portfolio pannels, blog pannels, 
+    contact pannels */
+    --color-bg-variant: #556d8b;
+
+   /*  header: download letters, lets tal background, scroll down,
+    social icons */
+    --color-primary: #a1acba;
+    
     --color-primary-variant: #577590;
-    --color-bg-variant: #4d6880;
-    --color-white: #2e3e4d;
 
+    --color-primary-variant-2: #14213d;
 
-    /* Blue Palette */
-    --color-bg-blue: #cee8f3;
-    --color-primary-blue: #7cc1ef;
-    /* MASTER COLOR */
-    --color-primary-variant-blue: #3098c5;
-    --color-bg-variant-blue: #287fa4;
-    --color-white-blue: #184c63;
-
-
+  
+    --color-white: #343c46;
+    --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 400ms ease;
 
     /*  Media queries sizes: */
@@ -104,7 +105,7 @@ section>h5 {
 }
 
 section>h2 {
-    color: var(--color-white);
+    color: var(--color-primary-variant-2);
     margin-bottom: 3rem;
 }
 

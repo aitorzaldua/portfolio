@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import code from "../../assets/code5.png";
+import ME from "../../assets/me_2001.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={code} alt="This is me" />
+            <img src={ME} alt="This is me" />
           </div>
         </div>
 
@@ -39,14 +39,14 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          <div className="text__about">
             Passionate about forward-looking challenges, I have built my career
             by participating in those initiatives that defined technology in
             each generation. Digital transformation, the real one, is about
             migrating companies to the blockchain ecosystems that are starting
             to develop. I am here to help lead the way, to guide those companies
             into this new land of unlimited opportunities.
-          </p>
+          </div>
           <a href="#contact" className="btn btn-primary">
             Let´s talk
           </a>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import code from "../../assets/code5.png";
+import code from "../../assets/code3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";

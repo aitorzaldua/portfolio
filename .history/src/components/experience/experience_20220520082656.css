@@ -29,11 +29,11 @@
 }
 
 .experience__container > div h4 {
-    color: #7cc1df;
+    color: #a9cc8e;
 }
 
 .experience__container > div:hover h4 {
-    color: #206683;
+    color: red;
 }
 
 
