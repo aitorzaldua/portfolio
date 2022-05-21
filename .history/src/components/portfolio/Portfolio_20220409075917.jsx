@@ -58,7 +58,6 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-      <div className="top__adjust" />
       <h5>My Recent work</h5>
       <h2>Portfolio</h2>
 

@@ -55,15 +55,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Deploying smart contracts on test networks as well as mainnets.</p>
+              <p>Deploying smart contracts on test networks such as Ropsten or Mumbai as well as Ethereum mainnet and similar.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
               <p>DAPP development such as DEFI, DEX and DAO.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>NFT mint site and NFT marketplace (ERC721, ERC1155 and Metaplex).</p>
             </li>
           </ul>
         </article>
@@ -85,11 +81,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts via BSC, Solana, Near and similar networks. </p>
+              <p>Test and Deploy Smart contract via BSC, Solana, Near and similar networks/p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Parachain integration (setup and maintenance) for Kusama and Polkadot.</p>
+              <p>Fiveth description of Service</p>
             </li>
           </ul>
         </article>

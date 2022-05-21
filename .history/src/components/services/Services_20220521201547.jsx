@@ -85,7 +85,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts via BSC, Solana, Near and similar networks. </p>
+              <p>Test and Deploy Smart contract via BSC, Solana, Near and similar networks. </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />

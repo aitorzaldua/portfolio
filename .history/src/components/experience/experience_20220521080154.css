@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    padding-top: 3rem;
 }
 
 .experience__container > div {
@@ -22,7 +21,7 @@
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: #b3c3d1;
 }
 
 .experience__container > div:hover h3 {

@@ -55,15 +55,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Deploying smart contracts on test networks as well as mainnets.</p>
+              <p>Deploying smart contracts on test networks such as ropsten/rinkeby as well as Ethereum mainnet.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>DAPP development such as DEFI, DEX and DAO.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>NFT mint site and NFT marketplace (ERC721, ERC1155 and Metaplex).</p>
+              <p>Fiveth description of Service</p>
             </li>
           </ul>
         </article>
@@ -73,23 +69,23 @@ const Services = () => {
           <h3>Non-EVM Services</h3>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Custom contract writting in Rust.</p>
+              <p>First description of Service</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>NFT marketplace using metaplex.</p>
+              <p>Second description of Service</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>PL token deploy and NFT mint dapp using candy machine.</p>
+              <p>Thirth description of Service</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts via BSC, Solana, Near and similar networks. </p>
+              <p>Fourth description of Service</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Parachain integration (setup and maintenance) for Kusama and Polkadot.</p>
+              <p>Fiveth description of Service</p>
             </li>
           </ul>
         </article>
