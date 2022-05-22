@@ -1,11 +1,11 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio01.png';
-import IMG2 from '../../assets/portfolio02.png';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio06.png';
+import IMG1 from '../../assets/netflix.png';
+import IMG2 from '../../assets/airbnb.png';
+import IMG3 from '../../assets/twitter.png';
+import IMG4 from '../../assets/cryptocard.png';
+import IMG5 from '../../assets/punks.png';
+import IMG6 from '../../assets/draftdigital.png';
 
 const Portfolio = () => {
 
@@ -14,28 +14,32 @@ const Portfolio = () => {
       id: 1,
       image: IMG1,
       title: 'Netflix Decentralized',
+      comments: 'Don´t miss the oportuniy to watch your favorite movies. Use Ether or Matic to subscribe.',
       github: 'https://github.com/aitorzaldua/netflixdecentralized',
       website: 'https://netflixdecentralized.netlify.app/'
     },
     {
       id: 2,
       image: IMG2,
-      title: 'Awesome Punks',
-      github: 'https://github.com/aitorzaldua/platzi_punks_v3_interface',
+      title: 'Airbnb Decentralized',
+      comments: 'The clasical Airbnb, with beautiful locations to book. Built with React, Smart contract in Polygon Mumbay',
+      github: 'https://github.com/aitorzaldua/airbnb-web3-ui',
       website: 'https://awesomepunks.netlify.app/',
       contract: 'https://rinkeby.etherscan.io/address/0xDE79Fe425A2AFA4dc9FDb665f5430d23008F91D0#code'
     },
     {
       id: 3,
       image: IMG3,
-      title: 'Title portfolio 3',
+      title: 'Twitter Decentralized',
+      comments: 'All you can say in one tweet. Add picture. Use your own NFT to personalize you Profile.',
       github: 'https://github.com/aitorzaldua/portfolio_brand',
       website: 'https://www.draftdigital.org/'
     },
     {
       id: 4,
       image: IMG4,
-      title: 'Title portfolio 4',
+      title: 'Cryptocard',
+      comments: 'Transfer crypto money to any account accross the world, in seconds, without intermediaries',
       github: 'https://github.com/aitorzaldua/portfolio_brand',
       website: 'https://www.draftdigital.org/'
     },
@@ -43,6 +47,7 @@ const Portfolio = () => {
       id: 5,
       image: IMG5,
       title: 'Title portfolio 5',
+      comments: 'NFT project',
       github: 'https://github.com/aitorzaldua/portfolio_brand',
       website: 'https://www.draftdigital.org/'
     },
@@ -50,6 +55,7 @@ const Portfolio = () => {
       id: 6,
       image: IMG6,
       title: 'Draft Digital',
+      comments: 'Wonderful project to centralize all the service to my awesome clients',
       github: 'https://github.com/aitorzaldua/portfolio_brand',
       website: 'https://www.draftdigital.org/'
     },
@@ -64,13 +70,14 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id, image, title, github, website, contract}) => {
+          data.map(({id, image, title, github, website, comments, contract}) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
                 <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+                <h5>{comments}</h5>
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
                   <a href={website} className='btn btn-primary' target='_blank' rel='noreferrer'>Website</a>

@@ -73,23 +73,23 @@ const Services = () => {
           <h3>Non-EVM Services</h3>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Custom contract writting in Rust.</p>
+              <p>In-depth study of the best blockchain for the development of the client's project.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>NFT marketplace using metaplex.</p>
+              <p>Build Blockchains based on academically-researched and field-tested code with Substrate</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>PL token deploy and NFT mint dapp using candy machine.</p>
+              <p>Token deploy and NFT mint dapp using Solana Candy Machine.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts via BSC, Solana, Near and similar networks. </p>
+              <p>Test and Deploy Smart contracts into Solana, Near, Fantom or cutomer´s own Blockchain</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Parachain integration (setup and maintenance) for Kusama and Polkadot.</p>
+              <p>Built a 100% decentralized app with Holochain.</p>
             </li>
           </ul>
         </article>
