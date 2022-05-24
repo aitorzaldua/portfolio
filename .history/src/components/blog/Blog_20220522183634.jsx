@@ -48,8 +48,6 @@ const Blog = () => {
       image: IMG4,
       title: "INSTALACIÓN Y CONFIGURACIÓN DE UN SERVIDOR FTP EN LINUX",
       note: "FTP son las siglas de File Transfer Protocol (Protocolo de Transferencia de Archivos). Fue escrito por Abhay Bhushan y publicado como RFC 114 el 16 de abril de 1971. Es compatible con todos los sistemas operativos y navegadores. Se basa en una arquitectura cliente-servidor.",
-      note2:
-        "Paso 1: Usaremos localhost (127.0.0.1) en nuestro equipo para configurar el servidor ftp. Paso 2: Instalar el paquete vsftpd (muy seguro FTP daemon) - yum install -y vsftpd",
       link: "https://www.freecodecamp.org/espanol/news/ghost/#/site",
       place: "Free Code Camp",
     },

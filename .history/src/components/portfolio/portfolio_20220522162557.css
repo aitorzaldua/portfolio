@@ -22,7 +22,9 @@
     margin: 0rem 0 0.7rem !important;
 }
 
-
+.portfolio__item:hover > portfolio__item-image {
+    border: 5px solid var(--color-bg-blue);
+}
 
 .portfolio__item:hover {
     border-color: var(--color-primary-variant-blue);
@@ -41,6 +43,7 @@
 .portfolio__item-image {
     border-radius: 0.5rem;
     overflow: hidden;
+    
     border: 1px solid var(--color-bg-blue);
 }
 

@@ -50,7 +50,7 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: "NFT minter",
+      title: "Title portfolio 5",
       comments: "We don't know what they're for, but let's face it: Minting punks is fun. Get your punk based on your wallet and the corresponding id. Check the result in OpenSea.",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
@@ -60,7 +60,7 @@ const Portfolio = () => {
       image: IMG6,
       title: "Draft Digital",
       comments:
-        "Draft Digital is the project to lead the transition of infinite businesses to Web3. We implement your idea, your vision from the first step to make it a reality in the Blockchain ecosystem.",
+        "Wonderful project to centralize all the service to my awesome clients",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },

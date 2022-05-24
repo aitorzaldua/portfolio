@@ -13,34 +13,25 @@
 }
 
 .portfolio__item h3 {
-    color: var(--color-bg-blue);
+    color: var(--color-primary);
     margin: 1rem 0 0.3rem !important;
 }
 
 .portfolio__item h5 {
-    color: var(--color-bg);
+    color: var(--color-white);
     margin: 0rem 0 0.7rem !important;
+
 }
-
-
 
 .portfolio__item:hover {
     border-color: var(--color-primary-variant-blue);
     background: transparent;
-    box-shadow: 5px 10px 10px;
-}
-
-.portfolio__item:hover > h3 {
-    color: var(--color-white);
-}
-
-.portfolio__item:hover > h5 {
-    color: var(--color-bg-variant);
 }
 
 .portfolio__item-image {
     border-radius: 0.5rem;
     overflow: hidden;
+    box-shadow: 5px 10px 10px;
     border: 1px solid var(--color-bg-blue);
 }
 

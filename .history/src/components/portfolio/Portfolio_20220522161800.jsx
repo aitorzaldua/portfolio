@@ -34,7 +34,7 @@ const Portfolio = () => {
       image: IMG3,
       title: "Twitter Decentralized",
       comments:
-        "Every tweet is yours and yours alone. The proof is in the Blockchain, where each one can be consulted as another transaction. Customize your Avatar with your NFT's and store the images in IPFS.",
+        "All you can say in one tweet. Add picture. Use your own NFT to personalize you Profile.",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },
@@ -43,15 +43,15 @@ const Portfolio = () => {
       image: IMG4,
       title: "Cryptocard",
       comments:
-        "This is what the Blockchain ecosystem has been built for. To make life easier. Send and receive cryptocurrency in seconds by simply connecting your wallet. No middlemen. No questions asked. This is the way.",
+        "Transfer crypto money to any account accross the world, in seconds, without intermediaries",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },
     {
       id: 5,
       image: IMG5,
-      title: "NFT minter",
-      comments: "We don't know what they're for, but let's face it: Minting punks is fun. Get your punk based on your wallet and the corresponding id. Check the result in OpenSea.",
+      title: "Title portfolio 5",
+      comments: "NFT project",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },
@@ -60,7 +60,7 @@ const Portfolio = () => {
       image: IMG6,
       title: "Draft Digital",
       comments:
-        "Draft Digital is the project to lead the transition of infinite businesses to Web3. We implement your idea, your vision from the first step to make it a reality in the Blockchain ecosystem.",
+        "Wonderful project to centralize all the service to my awesome clients",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },

@@ -38,6 +38,10 @@
     color: var(--color-bg-variant);
 }
 
+.portfolio__item:hover > portfolio__item-image {
+    border: 5px solid red;
+}
+
 .portfolio__item-image {
     border-radius: 0.5rem;
     overflow: hidden;

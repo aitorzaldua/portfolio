@@ -22,25 +22,19 @@
     margin: 0rem 0 0.7rem !important;
 }
 
-
+.portfolio__item h3:hover, h5:hover {
+    color: var(--color-bg-blue);
+}
 
 .portfolio__item:hover {
     border-color: var(--color-primary-variant-blue);
     background: transparent;
-    box-shadow: 5px 10px 10px;
-}
-
-.portfolio__item:hover > h3 {
-    color: var(--color-white);
-}
-
-.portfolio__item:hover > h5 {
-    color: var(--color-bg-variant);
 }
 
 .portfolio__item-image {
     border-radius: 0.5rem;
     overflow: hidden;
+    box-shadow: 5px 10px 10px;
     border: 1px solid var(--color-bg-blue);
 }
 

@@ -60,7 +60,7 @@ const Portfolio = () => {
       image: IMG6,
       title: "Draft Digital",
       comments:
-        "Draft Digital is the project to lead the transition of infinite businesses to Web3. We implement your idea, your vision from the first step to make it a reality in the Blockchain ecosystem.",
+        "Wonderful project to centralize all the service to my awesome clients",
       github: "https://github.com/aitorzaldua/portfolio_brand",
       website: "https://www.draftdigital.org/",
     },
