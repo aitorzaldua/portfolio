@@ -35,7 +35,7 @@ const Portfolio = () => {
       title: "Twitter Decentralized",
       comments:
         "Every tweet is yours and yours alone. The proof is in the Blockchain, where each one can be consulted as another transaction. Customize your Avatar with your NFT's and store the images in IPFS.",
-      github: "https://github.com/aitorzaldua/portfolio_brand",
+      github: "https://github.com/aitorzaldua/twitterdecentralized",
       website: "https://www.draftdigital.org/",
     },
     {
@@ -44,7 +44,7 @@ const Portfolio = () => {
       title: "Cryptocard",
       comments:
         "This is what the Blockchain ecosystem has been built for. To make life easier. Send and receive cryptocurrency in seconds by simply connecting your wallet. No middlemen. No questions asked. This is the way.",
-      github: "https://github.com/aitorzaldua/portfolio_brand",
+      github: "https://github.com/aitorzaldua/cryptocard",
       website: "https://www.draftdigital.org/",
     },
     {
@@ -52,7 +52,7 @@ const Portfolio = () => {
       image: IMG5,
       title: "NFT minter",
       comments: "We don't know what they're for, but let's face it: Minting punks is fun. Get your punk based on your wallet and the corresponding id. Check the result in OpenSea.",
-      github: "https://github.com/aitorzaldua/portfolio_brand",
+      github: "https://github.com/aitorzaldua/platzi_punks_v3_interface",
       website: "https://www.draftdigital.org/",
     },
     {
@@ -91,14 +91,14 @@ const Portfolio = () => {
                   >
                     Github
                   </a>
-                  <a
+                 {/*  <a
                     href={website}
                     className="btn btn-primary"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Website
-                  </a>
+                  </a> */}
                   {/* <a href={contract} className='btn' target='_blank' rel='noreferrer'>Contract</a> */}
                 </div>
               </article>
