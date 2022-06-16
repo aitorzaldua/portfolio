@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
+/* picture by Tobias Bjørkli */
 import ME from '../../assets/home2.jpeg';
 import HeaderSocials from './HeaderSocials';
 
