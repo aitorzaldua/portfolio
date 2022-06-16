@@ -53,7 +53,8 @@
 }
 
 .me img{
-    box-shadow: 5px 10px 10px
+    box-shadow: 5px 10px 10px;
+    margin-top: 2rem;
 }
 
 /* Scroll Down */
