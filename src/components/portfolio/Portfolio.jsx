@@ -4,7 +4,7 @@ import IMG1 from "../../assets/netflix.png";
 import IMG2 from "../../assets/airbnb.png";
 import IMG3 from "../../assets/twitter.png";
 import IMG4 from "../../assets/cryptocard.png";
-import IMG5 from "../../assets/punks.png";
+import IMG5 from "../../assets/coinmarket.png";
 import IMG6 from "../../assets/draftdigital.png";
 
 const Portfolio = () => {
@@ -50,10 +50,11 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: "NFT minter",
-      comments: "We don't know what they're for, but let's face it: Minting punks is fun. Get your punk based on your wallet and the corresponding id. Check the result in OpenSea.",
+      title: "Coin Market Help",
+      comments: "Investing in the cryptocurrency market is something that causes immense disturbance. Up or Down? That is the question. But we are not alone. At CoinMarketHelp you can find out what other peers are feeling about the market and draw your own conclusions.",
       github: "https://github.com/aitorzaldua/platzi_punks_v3_interface",
-      website: "https://www.draftdigital.org/",
+      website: "https://github.com/aitorzaldua/pollbubble",
+      contract: "https://mumbai.polygonscan.com/address/0xfe3e75eb2ce7b9beb7a8f8f106beb7088bca185f",
     },
     {
       id: 6,
@@ -91,15 +92,15 @@ const Portfolio = () => {
                   >
                     Github
                   </a>
-                 {/*  <a
+                 <a
                     href={website}
                     className="btn btn-primary"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Website
-                  </a> */}
-                  {/* <a href={contract} className='btn' target='_blank' rel='noreferrer'>Contract</a> */}
+                  </a>
+                  <a href={contract} className='btn' target='_blank' rel='noreferrer'>Contract</a>
                 </div>
               </article>
             );
