@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/netflix.png";
 import IMG2 from "../../assets/airbnb.png";
 import IMG3 from "../../assets/twitter.png";
-import IMG4 from "../../assets/cryptocard.png";
+import IMG4 from "../../assets/cryptoTranfers.png";
 import IMG5 from "../../assets/coinmarket.png";
 import IMG6 from "../../assets/draftdigital.png";
 
