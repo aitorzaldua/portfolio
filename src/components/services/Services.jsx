@@ -77,7 +77,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Build Blockchains based on academically-researched and field-tested code with Substrate</p>
+              <p>Build Blockchains based on academically-researched and field-tested code with Substrate.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -85,7 +85,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts into Solana, Near, Fantom or cutomer´s own Blockchain</p>
+              <p>Test and Deploy Smart contracts into Solana, Near, Fantom or cutomer´s own Blockchain.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />

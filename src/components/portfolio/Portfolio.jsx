@@ -26,8 +26,7 @@ const Portfolio = () => {
         "Renting has become safer. Track on the Blockchain the history of the accommodation, process with crypto and guarantee the lock of the property through the Smart Contract. And enjoy!",
       github: "https://github.com/aitorzaldua/airbnb-web3-ui",
       website: "https://awesomepunks.netlify.app/",
-      contract:
-        "https://rinkeby.etherscan.io/address/0xDE79Fe425A2AFA4dc9FDb665f5430d23008F91D0#code",
+      contract: "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
     },
     {
       id: 3,
@@ -41,11 +40,12 @@ const Portfolio = () => {
     {
       id: 4,
       image: IMG4,
-      title: "Cryptocard",
+      title: "Crypto Transfers",
       comments:
         "This is what the Blockchain ecosystem has been built for. To make life easier. Send and receive cryptocurrency in seconds by simply connecting your wallet. No middlemen. No questions asked. This is the way.",
-      github: "https://github.com/aitorzaldua/cryptocard",
-      website: "https://www.draftdigital.org/",
+      github: "https://github.com/aitorzaldua/cryptocardui",
+      website: "https://cryptotransfers.netlify.app/",
+      contract: "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
     },
     {
       id: 5,
