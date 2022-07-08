@@ -3,7 +3,7 @@ import './footer.css';
 
 import {BsLinkedin} from 'react-icons/bs';
 import {IoLogoTwitter} from 'react-icons/io';
-import {FiInstagram} from 'react-icons/fi';
+import {BsGithub} from 'react-icons/bs';
 import {AiFillHeart} from 'react-icons/ai';
 
 const Footer = () => {
@@ -22,9 +22,9 @@ const Footer = () => {
       </ul>
 
     <div className='footer__socials'>
-      <a href='https://linkedin.com'><BsLinkedin/></a>
-      <a href='https://twitter.com'><IoLogoTwitter/></a>
-      <a href='jttps://instagram.com'><FiInstagram/></a>
+      <a href='https://www.linkedin.com/in/aitor-zaldua/'><BsLinkedin/></a>
+      <a href='https://twitter.com/azdraft_'><IoLogoTwitter/></a>
+      <a href='https://github.com/aitorzaldua'><BsGithub/></a>
     </div>
 
     <div className='footer__copyright'>

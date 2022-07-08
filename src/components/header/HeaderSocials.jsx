@@ -8,9 +8,9 @@ const HeaderSocials = () => {
     <div className='header__socials'>
         <a href='https://www.linkedin.com/in/aitor-zaldua/' target='_blank' rel="noreferrer"><BsLinkedin/></a>
         <a href='https://github.com/aitorzaldua' target='_blank' rel="noreferrer"><BsGithub/></a>
-        <a href='https://twitter.com' target='_blank' rel="noreferrer"><BsTwitter/></a>
+        <a href='https://twitter.com/azdraft_' target='_blank' rel="noreferrer"><BsTwitter/></a>
     </div>
   )
 }
 
-export default HeaderSocials; 
+export default HeaderSocials;
