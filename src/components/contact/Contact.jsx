@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css';
-
 import {MdOutlineEmail} from 'react-icons/md';
 import {BsWhatsapp} from 'react-icons/bs';
 import {BsLinkedin} from 'react-icons/bs';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_woechel', 'template_r99qtyz', form.current, '13zufWJ2iQk7TAoAo')
+      
+    e.target.reset();
+  };
+
+
   return (
     <section id='contact'>
       <div className="top__adjust" />
@@ -37,8 +48,8 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
-          <input type='text' name='name' placeholder='Your full Name' required />
+        <form ref={form} onSubmit={sendEmail}>
+          <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows='7' placeholder='Your Message' required/>
           <button type='submit' className='btn btn-primary'>Send Message</button>

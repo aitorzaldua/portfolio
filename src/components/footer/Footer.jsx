@@ -28,7 +28,7 @@ const Footer = () => {
     </div>
 
     <div className='footer__copyright'>
-      <small>&copy; Designed with <AiFillHeart/> by MG</small>
+      <small>&copy; Designed with 🤍 by MG</small>
     </div>
 
 
