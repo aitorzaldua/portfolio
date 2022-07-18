@@ -7,7 +7,7 @@ const Experience = () => {
     <section id='experience'>
       <div className="top__adjust" />
       <h5>What Skills I have</h5>
-      <h2>My Experience</h2>
+      <h2>Experience</h2>
 
       <div className='container experience__container'>
         <div className='experience__solidity'>
@@ -41,7 +41,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Avalanche</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>The fast-growing Layer1 PoS platform with smart contracts.</small>
               </div>
             </article>
 
@@ -71,7 +71,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Solana</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>50,000 transactions per second.</small>
               </div>
             </article>
 
@@ -79,7 +79,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Polkadot</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Rated one of the best layer1 protocol in the crypto space by the team at Weiss Ratings.</small>
               </div>
             </article>
 

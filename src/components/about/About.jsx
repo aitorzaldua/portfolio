@@ -45,7 +45,7 @@ const About = () => {
             by participating in those initiatives that defined technology in
             each generation. Digital transformation, the real one, is about
             migrating companies to the blockchain ecosystems that are starting
-            to develop. I am here to help lead the way, to guide those companies
+            to develop. I am here to help leading the way, to guide those companies
             into this new land of unlimited opportunities.
           </p>
           <a href="#contact" className="btn btn-primary">
