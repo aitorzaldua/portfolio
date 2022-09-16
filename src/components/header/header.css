@@ -40,12 +40,12 @@
 
 /* ME */
 .me {
-    background: radial-gradient(circle, var(--color-bg-variant), transparent);
-    width: 22rem;
-    height: 30rem;
+    /* background: radial-gradient(circle, var(--color-bg-variant), transparent); */
+    width: 32rem;
+    height: 24rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
+    left: calc(50% - 16.2rem);
+    margin-top: 2rem;
     /* border-radius: 12rem 12rem 0 0; */
     overflow: hidden;
     padding: 1rem 1.5rem 1.5rem 1.5rem;

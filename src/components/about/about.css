@@ -77,6 +77,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-primary-variant);
+    font-size: 0.9rem;
 }
 
 

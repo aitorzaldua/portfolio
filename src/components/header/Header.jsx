@@ -1,8 +1,8 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-/* picture by Tobias Bjørkli */
-import ME from '../../assets/home2.jpeg';
+/* picture by Mila Gómez */
+import ME from '../../assets/az.jpg';
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       <div className='container header__container'>
         <h5>Hello, I´m</h5>
         <h1>Aitor Zaldua</h1>
-        <h5 className='text-light'>Blockchain FullStack Developer</h5>
+        <h5 className='text-light'>Smart Contract & Blockchain FullStack Developer</h5>
         <CTA />
         <HeaderSocials />
 

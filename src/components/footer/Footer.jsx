@@ -14,7 +14,7 @@ const Footer = () => {
       <ul className='permalinks'>
         <li><a href='#header'>Home</a></li>
         <li><a href='#about'>About Me</a></li>
-        <li><a href='#experience'>Experience</a></li>
+        {/* <li><a href='#experience'>Experience</a></li> */}
         <li><a href='#services'>Services</a></li>
         <li><a href='#portfolio'>Portfolio</a></li>
         <li><a href='#blog'>Blog</a></li>
@@ -22,9 +22,9 @@ const Footer = () => {
       </ul>
 
     <div className='footer__socials'>
-      <a href='https://www.linkedin.com/in/aitor-zaldua/'><BsLinkedin/></a>
-      <a href='https://twitter.com/azdraft_'><IoLogoTwitter/></a>
-      <a href='https://github.com/aitorzaldua'><BsGithub/></a>
+      <a href='https://www.linkedin.com/in/aitor-zaldua/' target="_blank" rel="noreferrer"><BsLinkedin/></a>
+      <a href='https://twitter.com/azdraft_' target="_blank" rel="noreferrer"><IoLogoTwitter/></a>
+      <a href='https://github.com/aitorzaldua' target="_blank" rel="noreferrer"><BsGithub/></a>
     </div>
 
     <div className='footer__copyright'>

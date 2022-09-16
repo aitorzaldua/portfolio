@@ -41,12 +41,20 @@ const About = () => {
           </div>
 
           <p>
-            Passionate about forward-looking challenges, I have built my career
-            by participating in those initiatives that defined technology in
-            each generation. Digital transformation, the real one, is about
-            migrating companies to the blockchain ecosystems that are starting
-            to develop. I am here to help leading the way, to guide those companies
-            into this new land of unlimited opportunities.
+            I have really enjoyed my career up to this point, always with a
+            customer first mentality and building solid and, above all, safe
+            projects. My experience covers two main blocks: <br />
+            12 years of experience as a business continuity and disaster
+            recovery engineer, auditing every day the security of their IT
+            services and performing annual resilience audits for each client.
+            <br />8 years of experience in software development and management
+            for IT companies. <br />
+            During these stages I have had clients such as JPMorgan, Credit
+            Agricole, BBVA, Altura Markets, Inversis, Telefonica/Movistar,
+            Vodafone, Adecco among others. <br />
+            Passionate about forward-looking challenges, I am currently working
+            as a web3 developer, a new technology that fits perfectly with my
+            usual priorities: Security, Resilience and Customer Oriented.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let´s talk
