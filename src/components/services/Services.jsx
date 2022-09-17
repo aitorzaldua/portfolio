@@ -1,106 +1,123 @@
-import React from 'react';
-import './services.css';
-import {BiCheck} from 'react-icons/bi';
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <div className="top__adjust" />
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
-      <div className='container services__container'>
-
-        <article className='service'>
-
-          <ul className='service__list'>
-          <h3>Frontend & UI Design</h3>
+      <div className="container services__container">
+        <article className="service">
+          <ul className="service__list">
+            <h3>Smart Contracts Development</h3>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Responsive layouts that will work on any device.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                High-level decisions about the prePO smart contract
+                architecture.
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Strong preference for easy to use, intuitive UX/UI.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Well-documented, performant, clean, and re-usable Solidity code.
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Integration with crypto wallets such as Metamask.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Secure and Gas consumption optimized Smart Contracts.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Developing RPC using client libraries such as web3.js. ether.js or Moralis.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Use of common Smart Contract Security Analysis Tools and
+                Frameworks;
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
+              <BiCheck className="service__list-icon" />
+              <p>
+                In-depth study of the best network for deployment based on the
+                customer's requirements.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
               <p>Lifetime technical assistance.</p>
             </li>
           </ul>
         </article>
 
-        <article className='service'>
-          <ul className='service__list'>
-          <h3>EVM Services</h3>
+        <article className="service">
+          <ul className="service__list">
+            <h3>Backend/Frontend Integration</h3>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Developing smart contracts using Solidity Programming Language.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Highly familiar with ether.js, web3.js and web3-react.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Static analysis of smart contracts for gas consumption and optimization using Remix IDE.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Extraction of valuable data from different protocols.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Securing smart contracts using libraries like OpenZeppelin.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Work hand in hand with the business team and the engineering
+                team in developing new features, solving problems and extending
+                the platform.
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Deploying smart contracts on test networks as well as mainnets.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Clear quality code for software and applications and perform
+                test reviews.
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>DAPP development such as DEFI, DEX and DAO.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Work with smart contracts and oracles such as Chainlink, Tezos
+                or Flux.
+              </p>
             </li>
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>NFT mint site and NFT marketplace (ERC721, ERC1155 and Metaplex).</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className='service'>
-          <ul className='service__list'>
-          <h3>Non-EVM Services</h3>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>In-depth study of the best blockchain for the development of the client's project.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Build Blockchains based on academically-researched and field-tested code with Substrate.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Token deploy and NFT mint dapp using Solana Candy Machine.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Test and Deploy Smart contracts into Solana, Near, Fantom or cutomer´s own Blockchain.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Built a 100% decentralized app with Holochain.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lifetime technical assistance.</p>
             </li>
           </ul>
         </article>
 
-
+        <article className="service">
+          <ul className="service__list">
+            <h3>UX/UI Create and Design</h3>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Transfer of ideas to the design and frontend code.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Design and building of dynamic web sites and dashboards in the
+                Web3 environment.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>React, NextJS, JavaScript, Figma, TailwindCSS.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lifetime technical assistance.</p>
+            </li>
+          </ul>
+        </article>
       </div>
-
-
-
     </section>
-  )
-}
+  );
+};
 
 export default Services;
