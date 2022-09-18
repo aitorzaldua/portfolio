@@ -14,7 +14,7 @@ const Portfolio = () => {
       image: IMG1,
       title: "Netflix Decentralized",
       comments:
-        "Don´t miss the opportunity to watch your favourite movies and series on this Netflix, now completely decentralized thanks to its videos in IPFS, its payment with crypto and its subscription through NFT.",
+        "Don´t miss the opportunity to watch your favourite K-Dramas and series on this Netflix, now completely decentralized thanks to its videos in IPFS. It´s a WIP, we will add crypto payments subscription through NFTs.",
       github: "https://github.com/aitorzaldua/netflixdecentralized",
       website: "https://netflixdecentralized.netlify.app/",
     },
@@ -100,7 +100,6 @@ const Portfolio = () => {
                   >
                     Website
                   </a>
-                  <a href={contract} className='btn' target='_blank' rel='noreferrer'>Contract</a>
                 </div>
               </article>
             );
