@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/netflix.png";
-import IMG2 from "../../assets/airbnb.png";
-import IMG3 from "../../assets/twitter.png";
+import IMG2 from "../../assets/airbnboat.png";
+import IMG3 from "../../assets/twitterDec.png";
 import IMG4 from "../../assets/cryptoTranfers.png";
 import IMG5 from "../../assets/coinmarket.png";
-import IMG6 from "../../assets/draftdigital.png";
+import IMG6 from "../../assets/philanthropy.png";
 
 const Portfolio = () => {
   const data = [
@@ -15,17 +15,17 @@ const Portfolio = () => {
       title: "Netflix Decentralized",
       comments:
         "Don´t miss the opportunity to watch your favourite K-Dramas and series on this Netflix, now completely decentralized thanks to its videos in IPFS. It´s a WIP, we will add crypto payments subscription through NFTs.",
-      github: "https://github.com/aitorzaldua/netflixdecentralized",
+      github: "https://github.com/aitorzaldua/netflixdecv002",
       website: "https://netflixdecentralized.netlify.app/",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Airbnb Decentralized",
+      title: "Air, Beach and Boats",
       comments:
         "Renting has become safer. Track on the Blockchain the history of the accommodation, process with crypto and guarantee the lock of the property through the Smart Contract. And enjoy!",
-      github: "https://github.com/aitorzaldua/airbnb-web3-ui",
-      website: "https://awesomepunks.netlify.app/",
+      github: "https://github.com/aitorzaldua/airbnboatv2",
+      website: "https://airbnboat.netlify.app/",
       contract: "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
     },
     {
@@ -34,8 +34,8 @@ const Portfolio = () => {
       title: "Twitter Decentralized",
       comments:
         "Every tweet is yours and yours alone. The proof is in the Blockchain, where each one can be consulted as another transaction. Customize your Avatar with your NFT's and store the images in IPFS.",
-      github: "https://github.com/aitorzaldua/twitterdecentralized",
-      website: "https://www.draftdigital.org/",
+      github: "https://github.com/aitorzaldua/twitterdecv002",
+      website: "https://twitteronpolygon.netlify.app/",
     },
     {
       id: 4,
@@ -59,11 +59,11 @@ const Portfolio = () => {
     {
       id: 6,
       image: IMG6,
-      title: "Draft Digital",
+      title: "Phylanthropy",
       comments:
-        "Draft Digital is the project to lead the transition of infinite businesses to Web3. We implement your idea, your vision from the first step to make it a reality in the Blockchain ecosystem.",
-      github: "https://github.com/aitorzaldua/portfolio_brand",
-      website: "https://www.draftdigital.org/",
+        "Philanthropy is a marketplace for NFTs where you can't sell... but draw. The use of Chainlink Keepers and VRF keep lotteries safe and fair.",
+      github: "https://github.com/aitorzaldua/philanthropySmartContract",
+      website: "https://philanthropy.vercel.app/",
     },
   ];
 
