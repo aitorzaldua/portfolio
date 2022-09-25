@@ -4,6 +4,8 @@ import IMG1 from "../../assets/solana.png";
 import IMG2 from "../../assets/aws.png";
 import IMG3 from "../../assets/rust.jpeg";
 import IMG4 from "../../assets/linux.png";
+import IMG5 from "../../assets/medium001.png";
+import IMG6 from "../../assets/medium002.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,20 +19,20 @@ const Blog = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
-      title: "SMART CONTRACT EN SOLANA",
-      note: "Solana, nacida en 2017, es un blockchain de prueba de participación (PoS) basado en la práctica bizantina de tolerancia a fallas (PBFT) construida desde cero por Solana Labs, con sede en Suiza, para asumir uno de los mayores desafíos tecnológicos: escalar la blockchain para su adopción global.",
+      image: IMG5,
+      title: "HOW TO BECOME A SECURITY SMART CONTRACT ENGINEER",
+      note: "It this series of articles, I will try to tell my story and how I became a wizard for the greater good. To protect The Blockchain, to keep it safe from the dark wizards who try, everyday, to steal contracts and balances.",
       note2:
-        "La red está respaldada por un fondo superior a 25 millones de dolares de inversores notables, incluidos Multicoin Capital, Foundation Capital, Distributed Global, CMCC, Blocktower Capital, NGC Capital y Rockaway Ventures.",
-      link: "https://aitorzaldua.medium.com/smart-contract-en-solana-con-rust-300238e68053",
+        "And my journey begins at Open Zeppelin. Open Zeppelin is a company that has smarts contracts security as their top priority. They have a lot of elements, such a predefined contracts, defenders or auditing services to protect the entire ecosystem.",
+      link: "https://aitorzaldua.medium.com/how-to-become-a-security-smart-contract-engineer-5eca69f1ea9f",
       place: "Medium",
     },
     {
       id: 2,
-      image: IMG2,
-      title: "AWS SE INCLINA POR RUST COMO LENGUAJE DEL FUTURO",
-      note: "AWS está esponsorizando el lenguaje de programación Rust y su motivo es bien evidente: Rust le permite a AWS escribir software con alto rendimiento y máximo aprovechamiento de la infraestructura, a la vez de garantizar la seguridad tanto de los sistemas como del entorno de red. Definitivamente, Rust se está volviendo popular en los entornos Cloud, veamos por qué",
-      link: "https://aitorzaldua.medium.com/amazon-web-services-se-inclina-por-rust-como-lenguaje-del-futuro-aac5e2ceace5",
+      image: IMG6,
+      title: "SECURITY SMART CONTRACTS: ETHERNAUT 1",
+      note: "Let’s continue with the Ethernaut. Today’s adventure is called The Fallback.Pay attention because today we will have to drain a contract, to steal all the funds. A dream from the dark side of the force.",
+      link: "https://link.medium.com/gYfHIFrLAtb",
       place: "Medium",
     },
     {
@@ -52,6 +54,16 @@ const Blog = () => {
         "Paso 1: Usaremos localhost (127.0.0.1) en nuestro equipo para configurar el servidor ftp. Paso 2: Instalar el paquete vsftpd (muy seguro FTP daemon) - yum install -y vsftpd",
       link: "https://www.freecodecamp.org/espanol/news/ghost/#/site",
       place: "Free Code Camp",
+    },
+    {
+      id: 5,
+      image: IMG1,
+      title: "SMART CONTRACT EN SOLANA",
+      note: "Solana, nacida en 2017, es un blockchain de prueba de participación (PoS) basado en la práctica bizantina de tolerancia a fallas (PBFT) construida desde cero por Solana Labs, con sede en Suiza, para asumir uno de los mayores desafíos tecnológicos: escalar la blockchain para su adopción global.",
+      note2:
+        "La red está respaldada por un fondo superior a 25 millones de dolares de inversores notables, incluidos Multicoin Capital, Foundation Capital, Distributed Global, CMCC, Blocktower Capital, NGC Capital y Rockaway Ventures.",
+      link: "https://aitorzaldua.medium.com/smart-contract-en-solana-con-rust-300238e68053",
+      place: "Medium",
     },
   ];
 
