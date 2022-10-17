@@ -3,7 +3,7 @@ import "./blog.css";
 import IMG1 from "../../assets/solana.png";
 import IMG2 from "../../assets/aws.png";
 import IMG3 from "../../assets/rust.jpeg";
-import IMG4 from "../../assets/linux.png";
+import IMG4 from "../../assets/IMG4.png";
 import IMG5 from "../../assets/medium001.png";
 import IMG6 from "../../assets/medium002.png";
 
@@ -38,22 +38,22 @@ const Blog = () => {
     {
       id: 3,
       image: IMG3,
-      title: "CONSIDERA RUST COMO TU SIGUIENTE LENGUAJE",
-      note: "De acuerdo con las encuestas de StackOverflow, Rust ha sido el lenguaje de programación más amado los últimos cuatro años. La mayoría de los programadores que han probado el lenguaje indican que les gustaría continuar usándolo.",
+      title: "THE HACKING OF RUBIXI SMART CONTRACT",
+      note: "When the movie starts with that sentence, something bad is going to happen to our protagonist. Maybe he’ll die, maybe he’ll lose his love forever… or maybe someone will take control of his smart contract and steal his funds because of a silly mistake.",
       note2:
-        "Si no te encuentras entre ellos, deberías preguntarte, ¿Qué es Rust, por qué es tan especial y qué es lo que le hace tan popular entre los desarrolladores? En esta guía, voy a tratar de darte una pequeña introducción al lenguaje y contestar algunas de las preguntas que tal vez tengas sobre Rust.",
-      link: "https://medium.com/p/dec97cfbeafd",
-      place: "Medium",
+        "This is the story of a company called Rubixy and how it tried to be a Ponzi scheme, and fool a lot of people, and ended up being the laughing stock of the smart contracts ecosystem.",
+      link: "https://blog.blockmagnates.com/the-hacking-of-rubixi-smart-contract-23d339213bbe",
+      place: "Block Magnates",
     },
     {
       id: 4,
       image: IMG4,
-      title: "INSTALACIÓN Y CONFIGURACIÓN DE UN SERVIDOR FTP EN LINUX",
-      note: "FTP son las siglas de File Transfer Protocol (Protocolo de Transferencia de Archivos). Fue escrito por Abhay Bhushan y publicado como RFC 114 el 16 de abril de 1971. Es compatible con todos los sistemas operativos y navegadores. Se basa en una arquitectura cliente-servidor.",
+      title: "HACKING A LOTTERY SMART CONTRACT",
+      note: "This is a coin flip game where we will have to win 10 times in a row to hack the contract. In other words, we have to guess the next value of the flip function return.",
       note2:
-        "Paso 1: Usaremos localhost (127.0.0.1) en nuestro equipo para configurar el servidor ftp. Paso 2: Instalar el paquete vsftpd (muy seguro FTP daemon) - yum install -y vsftpd",
-      link: "https://www.freecodecamp.org/espanol/news/ghost/#/site",
-      place: "Free Code Camp",
+        "The user will enter a boolean, true or false, and the function will generate another boolean. If both match, it will add 1 to the variable, consecutiveWins (set to 0 in the constructor). If they do not match, the variable returns to 0.",
+      link: "https://blog.blockmagnates.com/ethernaut-3-hacking-a-lottery-smart-contract-13922a0d066d",
+      place: "Block MagnatesIM",
     },
     {
       id: 5,
