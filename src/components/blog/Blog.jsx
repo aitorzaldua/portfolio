@@ -1,8 +1,8 @@
 import React from "react";
 import "./blog.css";
 import IMG1 from "../../assets/solana.png";
-import IMG2 from "../../assets/aws.png";
-import IMG3 from "../../assets/rust.jpeg";
+import IMG2 from "../../assets/IMG2.png";
+import IMG3 from "../../assets/IMG3.png";
 import IMG4 from "../../assets/IMG4.png";
 import IMG5 from "../../assets/medium001.png";
 import IMG6 from "../../assets/medium002.png";
@@ -57,13 +57,13 @@ const Blog = () => {
     },
     {
       id: 5,
-      image: IMG1,
-      title: "SMART CONTRACT EN SOLANA",
-      note: "Solana, nacida en 2017, es un blockchain de prueba de participación (PoS) basado en la práctica bizantina de tolerancia a fallas (PBFT) construida desde cero por Solana Labs, con sede en Suiza, para asumir uno de los mayores desafíos tecnológicos: escalar la blockchain para su adopción global.",
+      image: IMG2,
+      title: "SECURITY SMART CONTRACT: TX.ORIGIN",
+      note: "This is probably an old mistake and no one today is making it, but we can use this challenge to clarify the difference between tx.origin, the transaction origin, and msg.sender, the sender of the function call.",
       note2:
-        "La red está respaldada por un fondo superior a 25 millones de dolares de inversores notables, incluidos Multicoin Capital, Foundation Capital, Distributed Global, CMCC, Blocktower Capital, NGC Capital y Rockaway Ventures.",
-      link: "https://aitorzaldua.medium.com/smart-contract-en-solana-con-rust-300238e68053",
-      place: "Medium",
+        "LWe all know what, or better, who, is msg.sender, probably the most used variable in solidity: We interact with contracts through functions and the chain stores our address, as callers, as msg.sender.",
+      link: "https://coinsbench.com/security-smart-contract-tx-origin-944406d45977",
+      place: "Coins Bench",
     },
   ];
 
