@@ -1,11 +1,12 @@
 import React from "react";
 import "./blog.css";
-import IMG1 from "../../assets/solana.png";
-import IMG2 from "../../assets/IMG2.png";
-import IMG3 from "../../assets/IMG3.png";
-import IMG4 from "../../assets/IMG4.png";
-import IMG5 from "../../assets/medium001.png";
-import IMG6 from "../../assets/medium002.png";
+
+import IMG1 from "../../assets/medium/medium01.png";
+import IMG2 from "../../assets/medium/medium02.png";
+import IMG3 from "../../assets/medium/medium03.png";
+import IMG4 from "../../assets/medium/medium04.png";
+import IMG5 from "../../assets/medium/medium05.png";
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,7 +30,7 @@ const Blog = () => {
     },
     {
       id: 2,
-      image: IMG6,
+      image: IMG1,
       title: "SECURITY SMART CONTRACTS: ETHERNAUT 1",
       note: "Let’s continue with the Ethernaut. Today’s adventure is called The Fallback.Pay attention because today we will have to drain a contract, to steal all the funds. A dream from the dark side of the force.",
       link: "https://link.medium.com/gYfHIFrLAtb",

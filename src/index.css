@@ -9,6 +9,7 @@
     outline: 0;
     list-style: none;
     text-decoration: none;
+    
 }
 
 .header {
@@ -63,7 +64,7 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     /* Google search: subtle background pattern */
-    background-image: url(../src/assets/back001.png);
+    /* background-image: url(../src/assets/back001.png); */
     /* background: linear-gradient(90deg, #a1acba 1%, transparent 8%) 1px 0, var(--color-bg);
     background-size: 200px 1px; */
     background-repeat: no-repeat;

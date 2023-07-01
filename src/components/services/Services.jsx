@@ -26,7 +26,7 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Open channels of communication with the client´s contacts at all
+                Open channels of communication with the client's contacts at all
                 times.
               </p>
             </li>
@@ -126,8 +126,8 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Defi courses learning how to code services such as
-                lending, flash loans and crypto swaps based on protocols such as
+                Defi courses, learning how to code services such as
+                lending, flash loans or crypto swaps based on protocols like
                 Uniswap or AAve.
               </p>
             </li>
