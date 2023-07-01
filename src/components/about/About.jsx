@@ -41,20 +41,26 @@ const About = () => {
           </div>
 
           <p>
-            I have really enjoyed my career up to this point, always with a
-            customer first mentality and building solid and, above all, safe
-            projects. My experience covers two main blocks: <br />
-            12 years of experience as a business continuity and disaster
-            recovery engineer, auditing every day the security of their IT
-            services and performing annual resilience audits for each client.
-            <br />8 years of experience in software development and management
-            for IT companies. <br />
-            During these stages I have had clients such as JPMorgan, Credit
-            Agricole, BBVA, Altura Markets, Inversis, Telefonica/Movistar,
-            Vodafone, Adecco among others. <br />
-            Passionate about forward-looking challenges, I am currently working
-            as a web3 developer, a new technology that fits perfectly with my
-            usual priorities: Security, Resilience and Customer Oriented.
+            My focus has always been on the protection and security of clients
+            and their businesses. My experience covers the following areas:
+            <br />
+            ▻ 2020/Current: As a security researcher, I perform security
+            analysis and smart contract auditing services, investigating
+            potential vulnerabilities and overseeing the implementation of
+            secure smart contract protocols.
+            <br />
+            ▻ 2008/2020: 12 years' experience as a Business Continuity and IT
+            Security Engineer and Account Manager, reviewing the security of
+            their IT services on a daily basis and performing annual resilience
+            audits for each client.
+            <br />
+            ▻ 2000/2008: 8 years' experience in security and network management
+            for IT companies, including Unix/Linux management, scripting and
+            monitoring.
+            <br />
+            During this time I have had clients such as JPMorgan, Credit
+            Agricole, BBVA, Inversis, Altura Markets, Telefonica/Movistar,
+            Vodafone, Adecco and others.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let´s talk

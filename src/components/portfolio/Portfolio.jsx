@@ -1,69 +1,73 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/netflix.png";
-import IMG2 from "../../assets/airbnboat.png";
-import IMG3 from "../../assets/twitterDec.png";
-import IMG4 from "../../assets/cryptoTranfers.png";
-import IMG5 from "../../assets/coinmarket.png";
-import IMG6 from "../../assets/philanthropy.png";
+import IMG1 from "../../assets/audits/ajna.png";
+import IMG2 from "../../assets/audits/caviar.png";
+import IMG3 from "../../assets/audits/ens.png";
+import IMG4 from "../../assets/audits/frankencoin.png";
+import IMG5 from "../../assets/audits/kuma.png";
+import IMG6 from "../../assets/audits/partyDao.png";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
       image: IMG1,
-      title: "Netflix Decentralized",
+      title: "Ajna Protocol",
       comments:
-        "Don´t miss the opportunity to watch your favourite K-Dramas and series on this Netflix, now completely decentralized thanks to its videos in IPFS. It´s a WIP, we will add crypto payments subscription through NFTs.",
-      github: "https://github.com/aitorzaldua/netflixdecv002",
-      website: "https://netflixdecentralized.netlify.app/",
+        "Ajna's protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function.",
+      report: "https://code4rena.com/reports/2023-05-ajna",
+      website: "https://www.ajna.finance/",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Air, Beach and Boats",
+      title: "Caviar",
       comments:
-        "Renting has become safer. Track on the Blockchain the history of the accommodation, process with crypto and guarantee the lock of the property through the Smart Contract. And enjoy!",
-      github: "https://github.com/aitorzaldua/airbnboatv2",
-      website: "https://airbnboat.netlify.app/",
-      contract: "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
+        "Caviar is an on-chain, gas-efficient automated market maker (AMM) protocol for trading non-fungible tokens (NFTs) with ERC20 tokens and ETH, supporting both whole and fractional amounts.",
+      report: "https://code4rena.com/reports/2023-04-caviar",
+      website: "https://docs.caviar.sh/",
+      contract:
+        "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Twitter Decentralized",
+      title: "ENS Domains",
       comments:
-        "Every tweet is yours and yours alone. The proof is in the Blockchain, where each one can be consulted as another transaction. Customize your Avatar with your NFT's and store the images in IPFS.",
-      github: "https://github.com/aitorzaldua/twitterdecv002",
-      website: "https://twitteronpolygon.netlify.app/",
+        "ENS is the most widely integrated blockchain naming standard. No more copying and pasting long addresses. Use your ENS name to store all of your addresses",
+      report: "https://github.com/aitorzaldua/twitterdecv002",
+      website: "https://ens.domains/",
     },
     {
       id: 4,
       image: IMG4,
-      title: "Crypto Transfers",
+      title: "Frankencoin",
       comments:
-        "This is what the Blockchain ecosystem has been built for. To make life easier. Send and receive cryptocurrency in seconds by simply connecting your wallet. No middlemen. No questions asked. This is the way.",
-      github: "https://github.com/aitorzaldua/cryptocardui",
+        "The Frankencoin is a collateralized, oracle-free stablecoin that tracks the value of the Swiss franc.Unlike the minting mechanisms of other collateralized stablecoins, Frankencoin's auction-based mechanism does not depend on external oracles. ",
+      report: "https://code4rena.com/reports/2023-04-frankencoin",
       website: "https://cryptotransfers.netlify.app/",
-      contract: "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
+      contract:
+        "https://mumbai.polygonscan.com/address/0x789AC75C3070c801833F5EeC53C6984b2BDDd4C5",
     },
     {
       id: 5,
       image: IMG5,
-      title: "Coin Market Help",
-      comments: "Investing in the cryptocurrency market is something that causes immense disturbance. Up or Down? That is the question. But we are not alone. At CoinMarketHelp you can find out what other peers are feeling about the market and draw your own conclusions.",
-      github: "https://github.com/aitorzaldua/platzi_punks_v3_interface",
-      website: "https://github.com/aitorzaldua/pollbubble",
-      contract: "https://mumbai.polygonscan.com/address/0xfe3e75eb2ce7b9beb7a8f8f106beb7088bca185f",
+      title: "Kuma Protocol",
+      comments:
+        "The KUMA Protocol is a decentralized protocol issuing interest-bearing tokens backed by regulated NFTs, themselves backed by Real World Assets (RWA). At start the KUMA Protocol accepts regulated KUMA NFTs that are backed by sovereign bonds. ",
+      report: "https://code4rena.com/reports/2023-02-kuma",
+      website: "https://docs.kuma.bond/kuma-protocol/",
+      contract:
+        "https://mumbai.polygonscan.com/address/0xfe3e75eb2ce7b9beb7a8f8f106beb7088bca185f",
     },
     {
       id: 6,
       image: IMG6,
-      title: "Phylanthropy",
+      title: "Party DAO",
       comments:
-        "Philanthropy is a marketplace for NFTs where you can't sell... but draw. The use of Chainlink Keepers and VRF keep lotteries safe and fair.",
-      github: "https://github.com/aitorzaldua/philanthropySmartContract",
-      website: "https://philanthropy.vercel.app/",
+        "Party multiplayer for Ethereum. Create a group with flexible crowfunding methods, make decisions with on-chain voting and perform any Ethereum transaction as a party.",
+      report: "https://code4rena.com/reports/2023-05-party",
+      website: "https://www.party.app/",
     },
   ];
 
@@ -71,11 +75,11 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="top__adjust" />
       <h5>My Recent work</h5>
-      <h2>Portfolio</h2>
+      <h2>Audits</h2>
 
       <div className="container portfolio__container">
         {data.map(
-          ({ id, image, title, github, website, comments, contract }) => {
+          ({ id, image, title, report, website, comments, contract }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -85,14 +89,14 @@ const Portfolio = () => {
                 <h5>{comments}</h5>
                 <div className="portfolio__item-cta">
                   <a
-                    href={github}
+                    href={report}
                     className="btn"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
+                    Report
                   </a>
-                 <a
+                  <a
                     href={website}
                     className="btn btn-primary"
                     target="_blank"

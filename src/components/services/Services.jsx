@@ -12,106 +12,124 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <ul className="service__list">
-            <h3>Smart Contracts Development</h3>
+            <h3>Smart Contracts Audits</h3>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Early cost and time estimation.</p>
+            </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                High-level decisions about the prePO smart contract
-                architecture.
+                Full-time commitment to a single client during the audit period.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Well-documented, performant, clean, and re-usable Solidity code.
+                Open channels of communication with the client´s contacts at all
+                times.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Secure and Gas consumption optimized Smart Contracts.</p>
+              <p>Initial report to be reviewed by the client.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Use of common Smart Contract Security Analysis Tools and
-                Frameworks;
+                Second audit after the implementation of the initial report
+                findings.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                In-depth study of the best network for deployment based on the
-                customer's requirements.
+                Final report indicating the vulnerabilities already fixed and
+                making the final assessments.
               </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lifetime technical assistance.</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <ul className="service__list">
-            <h3>Backend/Frontend Integration</h3>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Highly familiar with ether.js, web3.js and web3-react.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Extraction of valuable data from different protocols.</p>
-            </li>
+            <h3>Security Consulting</h3>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Work hand in hand with the business team and the engineering
-                team in developing new features, solving problems and extending
-                the platform.
+                Free consultation via Zoom, on web3 security best practices and
+                how to find the resources for their implementation.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Clear quality code for software and applications and perform
-                test reviews.
+                Early estimation of the cost of accompanying programmers during
+                project development.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Work with smart contracts and oracles such as Chainlink, Tezos
-                or Flux.
+                Gas consumption recommendations to reduce implementation costs.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lifetime technical assistance.</p>
+              <p>
+                Ongoing audit of the software, unit testing and proof of concept
+                of the vulnerabilities found.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Final audit report.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lifetime audit assistance.</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <ul className="service__list">
-            <h3>UX/UI Create and Design</h3>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Transfer of ideas to the design and frontend code.</p>
-            </li>
+            <h3>Blockchain Instructor</h3>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Design and building of dynamic web sites and dashboards in the
-                Web3 environment.
+                Customised training according to the company's requirements.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>React, NextJS, JavaScript, Figma, TailwindCSS.</p>
+              <p>
+                Free consultation via Zoom, with security advice and online
+                resources available.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lifetime technical assistance.</p>
+              <p>
+                Basic to advanced programming courses on Solidity and smart
+                contracts.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Basic to advanced courses on security, vulnerabilities, tokens,
+                etc... to become a smart contract auditor and security
+                researcher.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Defi courses learning how to code services such as
+                lending, flash loans and crypto swaps based on protocols such as
+                Uniswap or AAve.
+              </p>
             </li>
           </ul>
         </article>

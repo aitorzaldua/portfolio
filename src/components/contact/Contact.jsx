@@ -11,8 +11,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_woechel', 'template_r99qtyz', form.current, '13zufWJ2iQk7TAoAo')
-      
+    emailjs.sendForm(
+      "service_6jpfh8l",
+      "template_1fkpzlh",
+      form.current,
+      "QwiFEJA8fMbHMfnSL"
+    );
+
     e.target.reset();
   };
 
@@ -56,7 +61,7 @@ const Contact = () => {
 
         </form>
       </div>
-    </section>  
+    </section> 
   )
 }
 
